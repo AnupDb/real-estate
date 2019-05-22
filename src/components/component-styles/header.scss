@@ -1,0 +1,29 @@
+@import "variables";
+
+header {
+  font-size: 1.6rem;
+  background-color: #0c002b;
+  color: white;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.6rem 4%;
+  nav {
+    a {
+      text-decoration: none;
+      padding-right: 1.6rem;
+      color: white;
+      font-weight: 300;
+      &:hover {
+        color: #ff718e;
+      }
+      &.register-btn {
+        background: $pink;
+        color: white;
+        padding: 0.7rem 2.5rem;
+        border-radius: 1rem;
+      }
+    }
+  }
+}
